@@ -2,6 +2,7 @@
 ## Table of Contents
 * [Author](#author)
 * [Overview](#overview)
+* [To-Do List](#to-do-list)
 * [Cloning this Repository](#cloning-this-repository)
 
 ## Author

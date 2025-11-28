@@ -12,7 +12,7 @@ This is a personal project of mine with the aim of learning to use/playing aroun
 The site is intended to act as a portfolio of my personal projects
 
 ## To-Do List
-* [ ] Initial layout.
+* [x] Initial layout.
 * [x] Error 404 redirect.
 * [ ] Sidebar navigation menu.
 * [ ] .css font, colour, etc.

@@ -1,8 +1,11 @@
 ---
 layout: mylayout.njk
 title: About The Author
+eleventyNavigation:
+    key: AboutMe
+    title: About Me
+    order: 3
 ---
-# {{ title }}
 I graduated from a Master of Computing, majoring in Computer Science, at the end of July, 2025. <br>
 I had previosly studied a Bachelor of Science, double majoring in both Computer Science and Games Technology. <br>
 

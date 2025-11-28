@@ -1,5 +1,5 @@
 ---
-layout: mylayour.njk
+layout: mylayout.njk
 title: About The Author
 ---
 # {{ title }}

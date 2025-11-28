@@ -9,8 +9,8 @@
 Created by Kristian Frossos.
 
 ## Overview
-This is a personal project of mine with the aim of learning to use/playing around with tools like 11ty (Eleventy).
-The site is intended to act as a portfolio of my personal projects
+This is a personal project of mine with the aim of learning to use/playing around with static site generation tools like 11ty (Eleventy). <br>
+The site is intended to act as a portfolio of my personal projects.
 
 ## To-Do List
 * [x] Initial layout.

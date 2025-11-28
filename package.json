@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Frosk-Kristian/frosk-kristian.github.io#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-navigation": "^1.0.4"
   }
 }

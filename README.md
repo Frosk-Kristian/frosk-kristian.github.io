@@ -15,10 +15,11 @@ The site is intended to act as a portfolio of my personal projects.
 ## To-Do List
 * [x] Initial layout.
 * [x] Error 404 redirect.
-* [ ] Sidebar navigation menu.
+* [x] Initial navigation menu.
 * [ ] .css font, colour, etc.
 * [ ] First project page (for this project).
-* [ ] About the author page.
+* [x] About the author page.
+* [ ] Better layout, sidebar navigation menu, etc.
 
 ## Cloning this Repository
 To clone this repository, run the following command in a terminal assuming you have git installed.

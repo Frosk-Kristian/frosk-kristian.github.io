@@ -9,6 +9,13 @@ title: Kristian's GitHub Page
         <title>{{ title }}</title>
     </head>
     <body>
+        <header>
+            <h1>{{ title }}</h1>
+        </header>
+        <nav>
+            <h3>Navigation</h3>
+            {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+        </nav>
         {{ content | safe}}
     </body>
 </html>

@@ -1,1 +1,18 @@
-# Heading
+# Kristian's GitHub Page
+## Table of Contents
+* [Author](#author)
+* [Overview](#overview)
+* [Cloning this Repository](#cloning-this-repository)
+
+## Author
+Created by Kristian Frossos.
+
+## Overview
+This is a personal project of mine with the aim of learning to use/playing around with tools like 11ty (Eleventy).
+The site is intended to act as a portfolio of my personal projects
+
+## Cloning this Repository
+To clone this repository, run the following command in a terminal assuming you have git installed.
+```powershell
+git clone https://github.com/Frosk-Kristian/frosk-kristian.github.io.git
+```

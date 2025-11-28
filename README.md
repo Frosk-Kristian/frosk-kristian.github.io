@@ -11,6 +11,14 @@ Created by Kristian Frossos.
 This is a personal project of mine with the aim of learning to use/playing around with tools like 11ty (Eleventy).
 The site is intended to act as a portfolio of my personal projects
 
+## To-Do List
+* [ ] Initial layout.
+* [x] Error 404 redirect.
+* [ ] Sidebar navigation menu.
+* [ ] .css font, colour, etc.
+* [ ] First project page (for this project).
+* [ ] About the author page.
+
 ## Cloning this Repository
 To clone this repository, run the following command in a terminal assuming you have git installed.
 ```powershell

@@ -4,6 +4,7 @@
   "description": "Portfolio site",
   "main": "index.js",
   "scripts": {
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/frosk-kristian.github.io/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

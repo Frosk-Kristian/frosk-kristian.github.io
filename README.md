@@ -4,6 +4,7 @@
 * [Overview](#overview)
 * [To-Do List](#to-do-list)
 * [Cloning this Repository](#cloning-this-repository)
+* [Build & Run](#build--run)
 
 ## Author
 Created by Kristian Frossos.
@@ -25,4 +26,10 @@ The site is intended to act as a portfolio of my personal projects.
 To clone this repository, run the following command in a terminal assuming you have git installed.
 ```powershell
 git clone https://github.com/Frosk-Kristian/frosk-kristian.github.io.git
+```
+
+## Build & Run
+Run the following command in the project directory, assuming 11ty and npx are installed.
+```powershell
+npx @11ty/eleventy --serve
 ```

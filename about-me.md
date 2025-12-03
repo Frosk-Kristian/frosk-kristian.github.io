@@ -1,6 +1,7 @@
 ---
 layout: mylayout.njk
 title: About The Author
+cssFile: "default.css"
 eleventyNavigation:
     key: AboutMe
     title: About Me

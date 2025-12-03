@@ -6,6 +6,7 @@ title: Kristian's GitHub Page
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/{{ cssFile }}" />
         <title>{{ title }}</title>
     </head>
     <body>
@@ -13,8 +14,15 @@ title: Kristian's GitHub Page
             <h1>{{ title }}</h1>
         </header>
         <nav>
-            <h3>Navigation</h3>
-            {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+            {# render navigation menu #}
+            {% set navPages = collections.all | eleventyNavigation %}
+            <ul id="myNavMenu">
+                {%- for entry in navPages %}
+                    <li id="myNavItem" {% if entry.url == page.url %} class="my-active-class" {% endif %}>
+                        <a href="{{ entry.url }}">{{ entry.title }}</a>
+                    </li>
+                {%- endfor %}
+            </ul>
         </nav>
         {{ content | safe}}
     </body>

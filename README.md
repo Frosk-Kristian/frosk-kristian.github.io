@@ -16,7 +16,7 @@ The site is intended to act as a portfolio of my personal projects.
 * [x] Initial layout.
 * [x] Error 404 redirect.
 * [x] Initial navigation menu.
-* [ ] .css font, colour, etc.
+* [x] .css font, colour, etc.
 * [ ] First project page (for this project).
 * [x] About the author page.
 * [ ] Better layout, sidebar navigation menu, etc.

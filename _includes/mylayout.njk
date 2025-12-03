@@ -14,12 +14,11 @@ title: Kristian's GitHub Page
             <h1>{{ title }}</h1>
         </header>
         <nav>
-            <h3>Navigation</h3>
             {# render navigation menu #}
             {% set navPages = collections.all | eleventyNavigation %}
-            <ul>
+            <ul id="myNavMenu">
                 {%- for entry in navPages %}
-                    <li {% if entry.url == page.url %} class="my-active-class" {% endif %}>
+                    <li id="myNavItem" {% if entry.url == page.url %} class="my-active-class" {% endif %}>
                         <a href="{{ entry.url }}">{{ entry.title }}</a>
                     </li>
                 {%- endfor %}

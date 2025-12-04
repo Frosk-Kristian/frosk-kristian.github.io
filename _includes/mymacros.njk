@@ -1,0 +1,6 @@
+{# Macro to render navigation menu item #}
+{% macro renderEntry(entry) %}
+    <li id="myNavItem" {% if entry.url == page.url %} class="my-active-class" {% endif %}>
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+    </li>
+{% endmacro %}

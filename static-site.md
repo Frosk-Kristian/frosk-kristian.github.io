@@ -3,8 +3,7 @@ layout: mylayout.njk
 title: Portfolio Site
 cssFile: "default.css"
 eleventyNavigation:
-    key: StaticSite
+    key: Site
     parent: Projects
 ---
-
-Test page
+This site! Wow!

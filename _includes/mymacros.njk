@@ -2,5 +2,12 @@
 {% macro renderEntry(entry) %}
     <li id="myNavItem" {% if entry.url == page.url %} class="my-active-class" {% endif %}>
         <a href="{{ entry.url }}">{{ entry.title }}</a>
+        {%- if entry.children.length -%}
+            <ul>
+                {%- for child in entry.children %}
+                    {{ renderEntry(child) }}
+                {% endfor -%}
+            </ul>
+        {%- endif -%}
     </li>
 {% endmacro %}

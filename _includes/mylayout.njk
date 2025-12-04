@@ -1,6 +1,7 @@
 ---
 title: Kristian's GitHub Page
 ---
+{% import "mymacros.njk" as macros -%}
 <!doctype html>
 <html lang="en">
     <head>
@@ -18,9 +19,7 @@ title: Kristian's GitHub Page
             {% set navPages = collections.all | eleventyNavigation %}
             <ul id="myNavMenu">
                 {%- for entry in navPages %}
-                    <li id="myNavItem" {% if entry.url == page.url %} class="my-active-class" {% endif %}>
-                        <a href="{{ entry.url }}">{{ entry.title }}</a>
-                    </li>
+                    {{ macros.renderEntry(entry) }}
                 {%- endfor %}
             </ul>
         </nav>

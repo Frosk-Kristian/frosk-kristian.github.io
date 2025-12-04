@@ -1,0 +1,14 @@
+{# Macro to render navigation menu item #}
+{% macro renderEntry(entry) %}
+    {# <li id="myNavItem" {% if entry.url == page.url %} class="my-active-class" {% endif %}> #}
+    <li id="myNavItem" class="{{ 'my-active-class' if entry.url == page.url }} {{ 'has-child' if entry.children.length }}">
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+        {%- if entry.children.length -%}
+            <ul class="dropdown-menu">
+                {%- for child in entry.children %}
+                    {{ renderEntry(child) }}
+                {% endfor -%}
+            </ul>
+        {%- endif -%}
+    </li>
+{% endmacro %}

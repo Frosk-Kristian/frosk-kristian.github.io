@@ -18,9 +18,9 @@ The site is intended to act as a portfolio of my personal projects.
 * [x] Error 404 redirect.
 * [x] Initial navigation menu.
 * [x] .css font, colour, etc.
-* [ ] First project page (for this project).
+* [x] First project page (for this project).
 * [x] About the author page.
-* [ ] Better layout, sidebar navigation menu, etc.
+* [x] Better layout, sidebar navigation menu, etc.
 
 ## Cloning this Repository
 To clone this repository, run the following command in a terminal assuming you have git installed.

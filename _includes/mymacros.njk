@@ -1,7 +1,14 @@
 {# Macro to render navigation menu item #}
 {% macro renderEntry(entry) %}
-    {# <li id="myNavItem" {% if entry.url == page.url %} class="my-active-class" {% endif %}> #}
-    <li id="myNavItem" class="{{ 'my-active-class' if entry.url == page.url }} {{ 'has-child' if entry.children.length }}">
+    {# this might be unnecessary, need to confirm if entry.url == page.url is ever evaluating to true (if it's not, then try reverting to old code for assigning class) #}
+    {% set classes = [] %}
+    {% if entry.url == page.url %}
+        {% set classes = (classes.push("my-active-class"), classes) %}
+    {% endif %}
+    {% if entry.children.length %}
+        {% set classes = (classes.push("has-child"), classes) %}
+    {% endif %}
+    <li id="myNavItem" class="{{ classes | join(' ') }}">
         <a href="{{ entry.url }}">{{ entry.title }}</a>
         {%- if entry.children.length -%}
             <ul class="dropdown-menu">

@@ -53,13 +53,15 @@ p {
     display: block;
 }
 
-.dropdown-menu li {
+#myNavMenu .dropdown-menu li {
     display: block;
+    float: none;
     padding: 8px 12px;
 }
 
-.dropdown-menu li a {
-    color: black;
+#myNavMenu .dropdown-menu li a {
+    color: white;
     text-decoration: none;
+    text-align: left;
     display: block;
 }

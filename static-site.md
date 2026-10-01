@@ -5,6 +5,7 @@ cssFile: "default.css"
 eleventyNavigation:
     key: Site
     parent: Projects
+    order: 1
 ---
 
 # Static Portfolio Website

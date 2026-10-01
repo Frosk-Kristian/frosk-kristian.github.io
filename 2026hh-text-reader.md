@@ -1,10 +1,11 @@
 ---
 layout: mylayout.njk
-title: Handheld Text Reader
+title: WADSIH 2026 Hardware Hack - Handheld Text Reader
 cssFile: "default.css"
 eleventyNavigation:
-    key: HHReader
-    praent: Projects
+    key: Handheld Text Reader
+    parent: Projects
+    order: 2
 ---
 
 # Handheld Text Reader
@@ -36,7 +37,7 @@ I will update this page to include a photograph or two of the device later.
 
 ## Source
 
-The projects source is split across two repositories, linked below.
-
 [ASP.NET server & API repository](https://github.com/Frosk-Kristian/frosk-kristian.github.io) -- a vast majority of my contributions to the project may be found here, this is my own work and I did not use ai to generate any code
-[ESP32 source code](https://github.com/Samh006/2026_HH) -- most of my contribution to this repository is in the client.cpp class and client.h header, as a disclaimer the team member primarily responsible for the ESP32 relied heavily on Claude and this repository contains ai generated code (I cannot verfiy how much was ai generated and how much was written by a person, beyond checking commit authors)
+
+
+[ESP32 source code](https://github.com/Samh006/2026_HH) -- most of my contribution to this repository is in the `client.cpp` class and `client.h` header, as a disclaimer the team member primarily responsible for the ESP32 relied heavily on Claude and this repository contains ai generated code (I cannot verfiy how much was ai generated and how much was written by a person, beyond checking commit authors)

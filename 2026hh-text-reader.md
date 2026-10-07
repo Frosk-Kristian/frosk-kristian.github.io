@@ -33,7 +33,12 @@ Additionally, I wrote the client side logic for communicating with our server an
 
 ## Images
 
-I will update this page to include a photograph or two of the device later.
+![Handheld reader device on table](./image/2026hh-text-reader/HH2026_1.jpg){eleventy:widths="900"}
+
+<div class="image-row">
+    <img src="./image/2026hh-text-reader/HH2026_2.jpg" alt="Handheld reader device front" eleventy:widths="450">
+    <img src="./image/2026hh-text-reader/HH2026_3.jpg" alt="Handheld reader device rear" eleventy:widths="450">
+</div>
 
 ## Source
 

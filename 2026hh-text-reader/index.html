@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/default.css" />
+        <link rel="stylesheet" href="/css/default.css">
         <title>WADSIH 2026 Hardware Hack - Handheld Text Reader</title>
     </head>
     <body>
@@ -73,7 +73,11 @@ Image transcription was done using Google's Gemma 4-32b ai model, accessed via O
 <p>Converting any transcribed text to audio was done locally using <a href="https://github.com/Lyrcaxis/KokoroSharp">KokoroSharp</a>, with the resulting audio only ever kept temporarily in memory and sent back to our ESP32. I did this so as to alleviate any potential privacy concerns (i.e. reading something sensitive like a form) and to minimise storage usage on the server host machine.</p>
 <p>Additionally, I wrote the client side logic for communicating with our server and assisted with refactoring and repairing the code in <code>main.cpp</code> on the ESP32.</p>
 <h2>Images</h2>
-<p>I will update this page to include a photograph or two of the device later.</p>
+<p><picture><source type="image/webp" srcset="/2026hh-text-reader/UCFPNry6f2-900.webp" sizes="auto"><img loading="lazy" decoding="async" src="/2026hh-text-reader/UCFPNry6f2-900.jpeg" alt="Handheld reader device on table" width="900" height="711"></picture></p>
+<div class="image-row">
+    <picture><source type="image/webp" srcset="/2026hh-text-reader/CuLRTzObaL-450.webp" sizes="auto"><img loading="lazy" decoding="async" src="/2026hh-text-reader/CuLRTzObaL-450.jpeg" alt="Handheld reader device front" width="450" height="563"></picture>
+    <picture><source type="image/webp" srcset="/2026hh-text-reader/l18SLem6N2-450.webp" sizes="auto"><img loading="lazy" decoding="async" src="/2026hh-text-reader/l18SLem6N2-450.jpeg" alt="Handheld reader device rear" width="450" height="521"></picture>
+</div>
 <h2>Source</h2>
 <p><a href="https://github.com/Frosk-Kristian/frosk-kristian.github.io">ASP.NET server &amp; API repository</a> -- a vast majority of my contributions to the project may be found here, this is my own work and I did not use ai to generate any code</p>
 <p><a href="https://github.com/Samh006/2026_HH">ESP32 source code</a> -- most of my contribution to this repository is in the <code>client.cpp</code> class and <code>client.h</code> header, as a disclaimer the team member primarily responsible for the ESP32 relied heavily on Claude and this repository contains ai generated code (I cannot verfiy how much was ai generated and how much was written by a person, beyond checking commit authors)</p>
